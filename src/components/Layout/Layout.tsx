@@ -1,17 +1,17 @@
 import React from "react";
 import Content from "./Content";
+import Footer from "./Footer";
 import Header from "./Header";
 
 interface LayoutProps {
-  withFooter?: boolean;
   children: React.ReactNode;
 }
 
-const Layout: React.FC<LayoutProps> = ({ withFooter, children }) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="react-layout">
       <Header />
-      <Content>{children}</Content>
+      <Content footer={<Footer />}>{children}</Content>
     </div>
   );
 };

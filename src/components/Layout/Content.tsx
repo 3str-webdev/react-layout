@@ -7,14 +7,14 @@ interface ContentProps {
 
 const Content: React.FC<ContentProps> = ({ children, footer = <></> }) => {
   return (
-    <div className="react-content">
+    <section className="react-content">
       <div className="wrapper">
         <>
           <div className="react-content-wrapper">{children}</div>
           {footer}
         </>
       </div>
-    </div>
+    </section>
   );
 };
 
