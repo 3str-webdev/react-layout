@@ -23,7 +23,7 @@ We using the moust popular react libraries "in the box"
 
 __`react-router-dom @types/react-router-dom`__
 __`typescript`__
-__`sass`__ (we recomended scss)
+__`sass`__ (we recommend scss)
 
 ---
 
